@@ -59,6 +59,68 @@ body {
   font-size: 1rem;
   color: rgb(56 189 248);
 }
+.footer-socials {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(51 65 85);
+  color: rgb(148 163 184);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.social-link:hover,
+.social-link:focus-visible {
+  background: rgb(15 23 42);
+  color: rgb(248 250 252);
+  border-color: rgb(56 189 248);
+}
+.footer-brand,
+.footer-newsletter {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-brand .brand-logo {
+  justify-content: center;
+}
+.footer-brand p {
+  text-align: center;
+}
+.footer-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+}
+.footer-group {
+  min-width: 160px;
+}
+.footer-newsletter .newsletter-form {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.newsletter-input {
+  min-width: 220px;
+  flex: 1 1 auto;
+}
+.subscribe-button {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .footer-columns {
+    flex-direction: row;
+  }
+}
 @media (min-width: 968px) {
   .nav-links {
     display: flex;
