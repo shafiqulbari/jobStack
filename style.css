@@ -1,0 +1,19 @@
+:root {
+  --card: rgb(17 24 39);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+.glass {
+  -webkit-backdrop-filter: blur(10px);
+  background: linear-gradient(180deg, rgb(30 41 59/0.7), rgb(2 6 23/0.7));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(148 163 184/0.15);
+}
+.ring-muted {
+  box-shadow: 0 0 0 1px rgb(148 163 184/0.15) inset;
+}
