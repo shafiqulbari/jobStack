@@ -20,3 +20,36 @@ body {
 .cta-glow {
   pointer-events: none;
 }
+.nav-links {
+  display: none;
+}
+.hamburger-toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.hamburger-line {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: rgb(226 232 240);
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+}
+.hamburger-toggle:hover .hamburger-line,
+.hamburger-toggle:focus-visible .hamburger-line {
+  background: rgb(248 250 252);
+}
+@media (min-width: 968px) {
+  .nav-links {
+    display: flex;
+  }
+  .hamburger-toggle {
+    display: none;
+  }
+  #mobile-menu {
+    display: none !important;
+  }
+}
