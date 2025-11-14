@@ -17,3 +17,6 @@ body {
 .ring-muted {
   box-shadow: 0 0 0 1px rgb(148 163 184/0.15) inset;
 }
+.cta-glow {
+  pointer-events: none;
+}
