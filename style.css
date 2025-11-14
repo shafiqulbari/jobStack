@@ -42,6 +42,23 @@ body {
 .hamburger-toggle:focus-visible .hamburger-line {
   background: rgb(248 250 252);
 }
+.partner-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  color: rgb(203 213 225);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-inline: 1rem;
+  padding-block: 0.35rem;
+}
+.partner-tile i {
+  font-size: 1rem;
+  color: rgb(56 189 248);
+}
 @media (min-width: 968px) {
   .nav-links {
     display: flex;
